@@ -1,3 +1,5 @@
+
+# Test Inputs
 dna_1 = "ACCGTT"
 dna_2 = "CCAGCA"
 
@@ -14,8 +16,11 @@ def longest_common_subsequence(string_1, string_2):
         grid[row][col] = grid[row - 1][col - 1] + 1
       else:
         grid[row][col] = max(grid[row - 1][col], grid[row][col - 1])
+    
+    
+  # Formatting (not part of time complexity analysis since this is extra)
   
-  bottom_right_cell = grid[-1][-1]
+  # For Referenc: bottom_right_cell = grid[-1][-1]
   result = []
   row = -1 
   col = -1 
