@@ -1,2 +1,2 @@
-DNA Comparision Algorithm 
+# DNA Comparision Algorithm 
 
